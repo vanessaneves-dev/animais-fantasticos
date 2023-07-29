@@ -9,7 +9,8 @@ export default function initActiveTab() {
       tabContent.forEach((content) => {
         content.classList.remove('ativo');
       });
-      tabContent[index].classList.add('ativo');
+      const direcao = tabContent[index].dataset.anime;
+      tabContent[index].classList.add('ativo', direcao);
     }
 
     tabMenu.forEach((itemMenu, index) => {
