@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
   <meta charset="utf-8" />
@@ -13,7 +13,7 @@
 
 <body>
   <div class="grid-container">
-    <nav class="menu" data-menu="suave"="">
+    <nav class="menu" data-menu="suave">
       <ul>
         <li><a href="#animais">Animais</a></li>
         <li data-dropdown>
@@ -30,26 +30,26 @@
         <li><a data-modal="abrir" href="login.html">Login</a></li>
       </ul>
     </nav>
-    <section class="grid-section animais" data-anime="scroll"="" id="animais">
+    <section class="grid-section animais" data-anime="scroll" id="animais">
       <h1 class="titulo">Animais Fantásticos</h1>
       <ul class="animais-lista" data-tab="menu">
         <li>
-          <img src="img/imagem1.jpg">
+          <img src="img/imagem1.jpg" alt="Raposa em meio ao mato">
         </li>
         <li>
-          <img src="img/imagem2.jpg">
+          <img src="img/imagem2.jpg" alt="Esquilo segurando alimento">
         </li>
         <li>
-          <img src="img/imagem3.jpg">
+          <img src="img/imagem3.jpg" alt="Urso olhando para frente">
         </li>
         <li>
-          <img src="img/imagem4.jpg">
+          <img src="img/imagem4.jpg" alt="Lobo uivando">
         </li>
         <li>
-          <img src="img/imagem5.jpg">
+          <img src="img/imagem5.jpg" alt="Macaco observado de perfil">
         </li>
         <li>
-          <img src="img/imagem6.jpg">
+          <img src="img/imagem6.jpg" alt="Leão rugindo">
         </li>
       </ul>
       <div class="animais-descricao" data-tab="content">
@@ -156,7 +156,7 @@
     <section class="grid-section contato" data-anime="scroll" id="contato">
       <h1 class="titulo">Contato</h1>
       <div class="mapa">
-        <img src="img/mapa.png">
+        <img src="img/mapa.png" alt="Mapa com marcação do endereço">
       </div>
       <ul class="dados">
         <li>contato@origamid.com</li>
@@ -175,9 +175,9 @@
       <button data-modal="fechar" class="fechar">X</button>
       <form action="">
         <label for="email">Email</label>
-        <input type="text" for="email" id="email">
+        <input type="email" name="email" id="email" autocomplete="email">
         <label for="senha">Senha</label>
-        <input type="password" for="senha" id="senha">
+        <input type="password" name="senha" id="senha" autocomplete="current-password">
         <button type="submit">Entrar</button>
       </form>
     </div>
